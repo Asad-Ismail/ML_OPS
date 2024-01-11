@@ -1,6 +1,8 @@
 # Machine Learning Pipeline Manager
 
 ## Overview
+AWS ML OPS pipeline can be found in aws_MLOPS directory along with the code
+
 This project implements a Machine Learning Pipeline Manager using Python. It contain MVP to describe how model_management can work
 
 ## Features
@@ -12,9 +14,20 @@ This project implements a Machine Learning Pipeline Manager using Python. It con
 - **Data Monitoring**: Simple data drift detection by comparing new data statistics against training data statistics.
 
 ## Requirements
-The project is built using Python and relies on several libraries including Pandas, Scikit-Learn, XGBoost, Pydantic, and tqdm. To install the required libraries, run:
 
+Install requriements using 
 
 ```bash
 pip install -r requirements.txt
 ```
+
+## Test 
+
+To test model_management class 
+
+
+```bash
+python model_management.py
+```
+
+It will also download sample credit fraud dataset train model and 
