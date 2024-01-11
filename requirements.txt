@@ -1,0 +1,8 @@
+logging
+requests
+pandas
+scikit-learn
+xgboost
+numpy
+pydantic
+tqdm
